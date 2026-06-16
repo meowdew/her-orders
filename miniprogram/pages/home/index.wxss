@@ -1,0 +1,77 @@
+.page {
+  min-height: 100vh;
+  padding: 64rpx 32rpx;
+  background: #f6f7f9;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  gap: 18rpx;
+  padding: 48rpx 0 40rpx;
+}
+
+.eyebrow {
+  color: #64748b;
+  font-size: 26rpx;
+}
+
+.title {
+  color: #111827;
+  font-size: 56rpx;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.subtitle {
+  max-width: 560rpx;
+  color: #475569;
+  font-size: 30rpx;
+  line-height: 1.6;
+}
+
+.summary {
+  display: flex;
+  gap: 16rpx;
+  margin: 32rpx 0;
+}
+
+.summary-item {
+  flex: 1;
+  min-width: 0;
+  padding: 28rpx 18rpx;
+  border: 1rpx solid #e5e7eb;
+  border-radius: 8rpx;
+  background: #ffffff;
+}
+
+.summary-value {
+  display: block;
+  color: #111827;
+  font-size: 40rpx;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.summary-label {
+  display: block;
+  margin-top: 8rpx;
+  color: #64748b;
+  font-size: 24rpx;
+}
+
+.primary-action {
+  width: 100%;
+  height: 92rpx;
+  margin-top: 40rpx;
+  border-radius: 8rpx;
+  background: #111827;
+  color: #ffffff;
+  font-size: 30rpx;
+  font-weight: 600;
+  line-height: 92rpx;
+}
+
+.primary-action::after {
+  border: 0;
+}
