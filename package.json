@@ -1,0 +1,14 @@
+{
+  "name": "her-orders",
+  "version": "0.1.0",
+  "private": true,
+  "description": "designed for her orders",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "check": "npm run typecheck"
+  },
+  "devDependencies": {
+    "miniprogram-api-typings": "^4.0.5",
+    "typescript": "^5.9.3"
+  }
+}
